@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: Downloads
   url: '/downloads/index.html'
-  order: 4
+  order: 2
 permalink: downloads/index.html
 layout: base.njk
 title: Downloads

@@ -1,4 +1,8 @@
 ---
+eleventyNavigation:
+  key: Documentation
+  url: '/documentation/index.html'
+  order: 3
 permalink: documentation/index.html
 layout: base.njk
 title: Documentation
