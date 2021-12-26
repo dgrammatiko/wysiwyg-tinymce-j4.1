@@ -33,7 +33,7 @@ For the installation the procedure is the expected one and once the package is i
 The plugin although will be enabled for all templates, only the `Cassiopeia` template will have the needed files. If you are using another template you will need to add the following files to the template:
 - a file called `jeditor.php` in the `templates/yourTemplateName` folder
 - a file called `style_formats.json` in the `media/templates/site/yourTemplateName/js` folder
-- a file called `style.json` in the `templates/yourTemplateName` folder
+- a file called `style.json` in the `media/templates/site/yourTemplateName/js` folder
 - Sample of the contents of these files are available below
 
 <details>
