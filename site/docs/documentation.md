@@ -26,7 +26,7 @@ For the installation the procedure is the expected one and once the package is i
   - Click on the link `Extensions` in the `Install` card
   - On the new page click on the tab `Install from URL`. {% image "./site/images/install_3.png" "Drag and drop installation", "Install from URL", "(min-width: 30em) 50vw, 100vw" %}
   - Paste the link: 
-    `{{ metainfo.url }}/dist/{{fff.name}}`
+    `https://wysiwyg.dgrammatiko.dev/dist/{{fff.name}}`
     and click the button Check and Install. Done.
 
 ## Enabling WYSIWYG for templates other than Cassiopeia
