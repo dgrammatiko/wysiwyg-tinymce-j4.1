@@ -19,6 +19,9 @@ class plgSystemTtctinymceInstallerScript extends InstallerScript
           JPATH_ROOT . '/templates/cassiopeia/jeditor.php'
         );
       }
+      if (!is_dir(JPATH_ROOT . '/media/templates/site/cassiopeia')) {
+        mkdir(JPATH_ROOT . '/media/templates/site/cassiopeia/js', 0755, true);
+      }
       if (is_dir(JPATH_ROOT . '/media/templates/site/cassiopeia')) {
         copy(
           $paths['source'] . '/extras/formats.json',
