@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.1" type="plugin" group="system" method="upgrade">
+  <name>True WYSIWYG TinyMCE</name>
+  <author>Dimitris Grammatikogiannis</author>
+  <creationDate>December 2021</creationDate>
+  <copyright>(C) 2021 Dimitris Grammatikogiannis</copyright>
+  <license>GNU General Public License version 2 or later;</license>
+  <authorEmail>d.grammatiko@gmail.com</authorEmail>
+  <authorUrl>dgrammatiko.dev</authorUrl>
+  <version>1.0.0</version>
+  <description>A simple plugin that adds true WYSIWYG capabilities to TinyMCE. Requires: a modern template (support for child template), a file named jeditor.php in the template and files style_formats.json and formats.json in the template's html folder.</description>
+	<namespace path="src">Joomla\Plugin\System\Ttctinymce</namespace>
+  <scriptfile>script.php</scriptfile>
+  <files>
+    <filename plugin="ttctinymce">ttctinymce.php</filename>
+    <folder>src</folder>
+  </files>
+</extension>

@@ -1,0 +1,59 @@
+{
+  "alignleft": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "text-start"
+  },
+  "aligncenter": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "text-center"
+  },
+  "alignright": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "text-end"
+  },
+  "alignjustify": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "text-justify"
+  },
+  "bold": {
+    "inline": "span",
+    "classes": "fw-bold"
+  },
+  "italic": {
+    "inline": "span",
+    "classes": "fst-italic"
+  },
+  "underline": {
+    "inline": "span",
+    "classes": "text-decoration-underline",
+    "exact": "true"
+  },
+  "strikethrough": {
+    "inline": "del",
+    "classes": "text-decoration-line-through"
+  },
+  "fontsize_class1": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-1"
+  },
+  "fontsize_class2": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-2"
+  },
+  "fontsize_class3": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-3"
+  },
+  "fontsize_class4": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-4"
+  },
+  "fontsize_class5": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-5"
+  },
+  "fontsize_class6": {
+    "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img",
+    "classes": "fs-6"
+  }
+}

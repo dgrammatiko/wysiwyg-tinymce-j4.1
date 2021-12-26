@@ -1,0 +1,146 @@
+{
+  "0": {
+    "title": "Headings",
+    "items": {
+      "0": {
+        "title": "Header 1",
+        "format": "h1"
+      },
+      "1": {
+        "title": "Header 2",
+        "format": "h2"
+      },
+      "2": {
+        "title": "Header 3",
+        "format": "h3"
+      },
+      "3": {
+        "title": "Header 4",
+        "format": "h4"
+      },
+      "4": {
+        "title": "Header 5",
+        "format": "h5"
+      },
+      "5": {
+        "title": "Header 6",
+        "format": "h6"
+      }
+    }
+  },
+  "1": {
+    "title": "Inline",
+    "items": {
+      "0": {
+        "title": "Bold",
+        "icon": "bold",
+        "format": "bold"
+      },
+      "1": {
+        "title": "Italic",
+        "icon": "italic",
+        "format": "italic"
+      },
+      "2": {
+        "title": "Underline",
+        "icon": "underline",
+        "format": "underline"
+      },
+      "3": {
+        "title": "Strikethrough",
+        "icon": "strike-through",
+        "format": "strikethrough"
+      },
+      "4": {
+        "title": "Superscript",
+        "icon": "superscript",
+        "format": "superscript"
+      },
+      "5": {
+        "title": "Subscript",
+        "icon": "subscript",
+        "format": "subscript"
+      },
+      "6": {
+        "title": "Code",
+        "icon": "code-sample",
+        "format": "code"
+      }
+    }
+  },
+  "2": {
+    "title": "Blocks",
+    "items": {
+      "0": {
+        "title": "paragraph",
+        "format": "p"
+      },
+      "1": {
+        "title": "Blockquote",
+        "format": "blockquote"
+      },
+      "2": {
+        "title": "Div",
+        "format": "div"
+      },
+      "3": {
+        "title": "pre",
+        "format": "pre"
+      }
+    }
+  },
+  "3": {
+    "title": "Alignment",
+    "items": {
+      "0": {
+        "title": "Left",
+        "icon": "align-left",
+        "format": "alignleft"
+      },
+      "1": {
+        "title": "Center",
+        "icon": "align-center",
+        "format": "aligncenter"
+      },
+      "2": {
+        "title": "Right",
+        "icon": "align-right",
+        "format": "alignright"
+      },
+      "3": {
+        "title": "Justify",
+        "icon": "align-justify",
+        "format": "alignjustify"
+      }
+    }
+  },
+  "4": {
+    "title": "Font size",
+    "items": {
+      "0": {
+        "title": "fs-1",
+        "format": "fontsize_class1"
+      },
+      "1": {
+        "title": "fs-2",
+        "format": "fontsize_class2"
+      },
+      "2": {
+        "title": "fs-3",
+        "format": "fontsize_class3"
+      },
+      "3": {
+        "title": "fs-4",
+        "format": "fontsize_class4"
+      },
+      "4": {
+        "title": "fs-5",
+        "format": "fontsize_class5"
+      },
+      "5": {
+        "title": "fs-6",
+        "format": "fontsize_class6"
+      }
+    }
+  }
+}
