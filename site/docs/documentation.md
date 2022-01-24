@@ -279,7 +279,7 @@ Check the [tinyMCE docs](https://www.tiny.cloud/docs/configure/editor-appearance
 </details>
 
 <details>
-<summary>formats.json</summary>
+<summary>styles.json</summary>
 
 ### The purpose of this file is to assign CSS classes (or inline CSS) to specific formats (the file above).
 
