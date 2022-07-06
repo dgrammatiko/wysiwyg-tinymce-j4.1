@@ -23,7 +23,7 @@
     "@11ty/eleventy-img": "0.10.0",
     "@11ty/eleventy-navigation": "0.3.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "3.2.2",
-    "@rollup/plugin-node-resolve": "13.0.2",
+    "@rollup/plugin-node-resolve": "13.3.0",
     "@zip.js/zip.js": "2.3.7",
     "adm-zip": "0.5.9",
     "fs-extra": "10.0.0",
