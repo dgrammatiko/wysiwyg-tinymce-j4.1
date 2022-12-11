@@ -9,10 +9,9 @@ const getSortedFiles = async (dir) => {
     .map(fileName => ({
       name: fileName,
       time: fs.statSync(`${dir}/${fileName}`).mtime.getTime(),
-      version: fileName.replace('plg_system_ttctinymce_', '').replace('.zip', '')
+      version: fileName.replace('plg_system_wysiwygtinymce_', '').replace('.zip', '')
     }))
     .filter(x => extname(x.name) === '.zip')
-    // .sort((a, b) => a.time - b.time)
     .sort((a, b) => semver.compare(b.version, a.version, {
         loose: true,
         includePrerelease: true

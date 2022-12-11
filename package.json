@@ -1,6 +1,6 @@
 {
   "name": "plugin-wysiwyg-tinymce-j4.1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "A tiny Joomla 4.1+ plugin that enables true wysiwyg for the TinyMCE editor",
   "scripts": {
@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/ttc-freebies/plugin-responsive-images#readme",
   "devDependencies": {
-    "@11ty/eleventy": "1.0.2",
+    "@11ty/eleventy": "2.0.0-canary.18",
     "@11ty/eleventy-img": "2.0.1",
     "@11ty/eleventy-navigation": "0.3.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "4.2.0",
     "@rollup/plugin-node-resolve": "15.0.1",
-    "@zip.js/zip.js": "2.6.60",
+    "@rollup/plugin-terser": "0.1.0",
     "adm-zip": "0.5.9",
     "fs-extra": "11.1.0",
     "markdown-it-anchor": "8.6.5",
@@ -35,7 +35,6 @@
     "postcss-import": "15.1.0",
     "rimraf": "3.0.2",
     "rollup": "3.7.3",
-    "rollup-plugin-html-literals": "1.1.6",
     "rollup-plugin-terser": "7.0.2",
     "semver": "7.3.8",
     "uhtml": "3.1.0"

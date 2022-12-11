@@ -7,12 +7,12 @@
   <license>GNU General Public License version 2 or later;</license>
   <authorEmail>d.grammatiko@gmail.com</authorEmail>
   <authorUrl>dgrammatiko.dev</authorUrl>
-  <version>1.0.0</version>
-  <description>A simple plugin that adds true WYSIWYG capabilities to TinyMCE. Requires: a modern template (support for child template), a file named jeditor.php in the template and files style_formats.json and formats.json in the template's html folder.</description>
-	<namespace path="src">Joomla\Plugin\System\Ttctinymce</namespace>
+  <version>{{version}}</version>
+  <description>A simple plugin that adds true WYSIWYG capabilities to TinyMCE. Requires: a modern template (support for child template), a file named jeditor.php in the template and files style_formats.json and formats.json in the template's js folder.</description>
+	<namespace path="src">Joomla\Plugin\System\TtcTinyMCE</namespace>
   <scriptfile>script.php</scriptfile>
   <files>
-    <filename plugin="ttctinymce">ttctinymce.php</filename>
+    <folder plugin="ttctinymce">services</folder>
     <folder>src</folder>
   </files>
 </extension>

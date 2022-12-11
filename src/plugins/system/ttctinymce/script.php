@@ -8,6 +8,9 @@ use Joomla\CMS\Installer\InstallerScript;
 
 class plgSystemTtctinymceInstallerScript extends InstallerScript
 {
+  protected $deleteFiles = ['plugins/system/ttctinymce/ttctinymce.php'];
+  protected $deleteFolders = ['plugins/system/ttctinymce/src/PluginTraits'];
+
   public function install(PluginAdapter $parent)
   {
     $parentInstance = $parent->getParent()->getInstance();
@@ -19,14 +22,13 @@ class plgSystemTtctinymceInstallerScript extends InstallerScript
           JPATH_ROOT . '/templates/cassiopeia/jeditor.php'
         );
       }
-      if (!is_dir(JPATH_ROOT . '/media/templates/site/cassiopeia')) {
-        mkdir(JPATH_ROOT . '/media/templates/site/cassiopeia/js', 0755, true);
-      }
-      if (is_dir(JPATH_ROOT . '/media/templates/site/cassiopeia')) {
+      if (!is_file(JPATH_ROOT . '/media/templates/site/cassiopeia/js/formats.json')) {
         copy(
           $paths['source'] . '/extras/formats.json',
           JPATH_ROOT . '/media/templates/site/cassiopeia/js/formats.json'
         );
+      }
+      if (!is_file(JPATH_ROOT . '/media/templates/site/cassiopeia/js/style_formats.json')) {
         copy(
           $paths['source'] . '/extras/style_formats.json',
           JPATH_ROOT . '/media/templates/site/cassiopeia/js/style_formats.json'
@@ -53,5 +55,7 @@ class plgSystemTtctinymceInstallerScript extends InstallerScript
         // var_dump($e);
       }
     }
+
+    $this->removeFiles();
   }
 }

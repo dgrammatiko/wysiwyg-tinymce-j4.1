@@ -13,8 +13,8 @@ permalink: /update.xml
     <targetplatform name="joomla" version="4.[123456789]"/>
     <element>plg_system_wysiwygtinymce</element>
     <type>package</type>
-    {% if metainfo.sha256 %}<sha256>{{metainfo.sha256}}</sha256>{% endif %}
-		{% if metainfo.sha384 %}<sha384>{{metainfo.sha384}}</sha384>{% endif %}
-		{% if metainfo.sha512 %}<sha512>{{metainfo.sha512}}</sha512>{% endif %}
+    {%- if metainfo.sha256 %}<sha256>{{metainfo.sha256}}</sha256>{% endif -%}
+		{%- if metainfo.sha384 %}<sha384>{{metainfo.sha384}}</sha384>{% endif -%}
+		{%- if metainfo.sha512 %}<sha512>{{metainfo.sha512}}</sha512>{% endif -%}
   </update>
 </updates>
