@@ -55,7 +55,7 @@ $templateColorsCSS    = ($templateColorsUri !== '') ? '@import url("' . $templat
 $activeLanguageCSS    = ($activeLanguageCSSUri !== '') ? '@import url("' . $activeLanguageCSSUri . '?' . $mv . '");' : '';
 $userCSS              = ($userCSSUri !== '') ? '@import url("' . $userCSSUri . '?' . $mv . '");' : '';
 $fontsCSS             = ($fontsCSSUri !== '') ? '@import url("' . $fontsCSSUri . '?' . $mv . '");' : '';
-$editorCSS            = ($editorCSSUri !== '') ? '@import url("' . $editorCSSUri . '?' . $mv . '");' : '';
+$editorCSS            = ($editorCSSUri !== '') ? '@import url("' . $editorCSSUri . '?' . round(microtime(true) * 1000) . '");' : '';
 
 /* $editorCSS Fallback */
 $edCSS = <<<CSS
