@@ -8,6 +8,10 @@
     "build:site": "eleventy",
     "serve": "eleventy --serve"
   },
+  "engines" : {
+    "npm" : ">=8.19.3",
+    "node" : "16.19.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://dgrammatiko@github.com/ttc-freebies/plugin-responsive-images.git"
