@@ -40,7 +40,7 @@
     "rimraf": "5.0.5",
     "rollup": "4.4.1",
     "semver": "7.5.4",
-    "uhtml": "4.1.16"
+    "uhtml": "4.1.19"
   },
   "data": {
     "repo": "ooo"
