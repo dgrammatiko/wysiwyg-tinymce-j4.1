@@ -29,7 +29,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-terser": "0.4.4",
-    "adm-zip": "0.5.14",
+    "adm-zip": "0.5.15",
     "fs-extra": "11.2.0",
     "markdown-it-anchor": "9.0.1",
     "naf-css": "3.0.3",
