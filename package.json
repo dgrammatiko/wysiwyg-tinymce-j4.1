@@ -8,9 +8,9 @@
     "build:site": "eleventy",
     "serve": "eleventy --serve"
   },
-  "engines" : {
-    "npm" : ">=8.19.3",
-    "node" : "20.17.0"
+  "engines": {
+    "npm": ">=8.19.3",
+    "node": "20.17.0"
   },
   "repository": {
     "type": "git",
@@ -44,5 +44,8 @@
   },
   "data": {
     "repo": "ooo"
+  },
+  "dependencies": {
+    "@zip.js/zip.js": "^2.7.52"
   }
 }

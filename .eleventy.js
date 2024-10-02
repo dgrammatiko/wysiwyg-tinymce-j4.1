@@ -1,6 +1,6 @@
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-let Nunjucks = require('nunjucks');
+const Nunjucks = require('nunjucks');
 const anchor = require("markdown-it-anchor");
 // const htmlmin = require("html-minifier");
 // const codepenIt = require("11ty-to-codepen");
