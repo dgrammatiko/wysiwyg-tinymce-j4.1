@@ -10,7 +10,7 @@
   },
   "engines": {
     "npm": ">=8.19.3",
-    "node": "22.15.0"
+    "node": "22.15.1"
   },
   "repository": {
     "type": "git",
