@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node build.js",
     "build:site": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "test": "node build.js && eleventy"
   },
   "engines": {
     "npm": ">=8.19.3",
