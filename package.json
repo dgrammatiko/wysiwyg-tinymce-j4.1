@@ -35,7 +35,7 @@
     "markdown-it-anchor": "9.2.0",
     "naf-css": "3.0.3",
     "nunjucks": "3.2.4",
-    "postcss": "8.5.8",
+    "postcss": "8.5.9",
     "postcss-cli": "11.0.1",
     "postcss-import": "16.1.1",
     "rimraf": "6.1.3",
