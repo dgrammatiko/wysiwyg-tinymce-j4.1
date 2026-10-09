@@ -47,6 +47,6 @@
     "repo": "ooo"
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.7.52"
+    "@zip.js/zip.js": "2.7.52"
   }
 }
